@@ -12,6 +12,7 @@ Runs the api with psotman like following instructions:
 
 1. GET - localhost:3000/customers 
 2. POST - localhost:3000/customers with follwoing fromat:
+   ```
    {
       "name": "Pankaj",
       "company_email": "test@test.com",
@@ -31,6 +32,7 @@ Runs the api with psotman like following instructions:
       	}
       	]
 }
+```
 3. DELETE - localhost:3000/customers will delete at a time
 
 4. GET - localhost:3000/customers/customerID will show specifc customer with id
