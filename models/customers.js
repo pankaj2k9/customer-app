@@ -3,17 +3,11 @@ const Schema = mongoose.Schema;
 
 
 var organizationSchema = new Schema({
-    rating: {
-        type: Number,
-        min: 1,
-        max: 5,
-        required: true
-    },
-    comment: {
+    name: {
         type: String,
         required: true
     },
-    author: {
+    location: {
         type: String,
         required: true
     }
@@ -27,32 +21,27 @@ const customerSchema = new Schema({
         required: true,
         unique: true
     },
-    description: {
+    company_email: {
         type: String,
         required: true
     },
-    image: {
+    company_website: {
         type: String,
         required: true
     },
-    category: {
+    password: {
         type: String,
         required: true
     },
-    label: {
+    location: {
         type: String,
-        default: ''
+        required: true
     },
-    price: {
-        type: String,
-        required: true,
-        min: 0
-    },
-    featured: {
+    email_notification: {
         type: Boolean,
         default: false
     },
-    comments: [organizationSchema]
+    organization: [organizationSchema]
 }, {
         timestamps: true
     });
