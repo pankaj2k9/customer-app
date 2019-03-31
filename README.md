@@ -31,7 +31,7 @@ Runs the api with psotman like following instructions:
       	 "location": "Location Three"
       	}
       	]
-}
+     }
 ```
 3. DELETE - localhost:3000/customers will delete at a time
 
