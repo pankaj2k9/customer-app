@@ -32,7 +32,7 @@ Runs the api with psotman like following instructions:
       	}
       	]
      }
-```
+     ```
 3. DELETE - localhost:3000/customers will delete at a time
 
 4. GET - localhost:3000/customers/customerID will show specifc customer with id
