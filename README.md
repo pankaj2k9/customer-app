@@ -33,7 +33,7 @@ Runs the api with postman like following instructions:
       	]
      }
      ```
-3. DELETE - localhost:3000/customers will delete all customerat a time
+3. DELETE - localhost:3000/customers will delete all customer at a time
 
 4. GET - localhost:3000/customers/customerID will show specifc customer with id
 4. DELETE- localhost:3000/customers/customerID will delete specifc customer with id
