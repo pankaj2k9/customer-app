@@ -8,7 +8,7 @@ Second with:
 
 ### `npm start`
 
-Runs the api with psotman like following instructions:
+Runs the api with postman like following instructions:
 
 1. GET - localhost:3000/customers 
 2. POST - localhost:3000/customers with follwoing fromat:
@@ -33,7 +33,7 @@ Runs the api with psotman like following instructions:
       	]
      }
      ```
-3. DELETE - localhost:3000/customers will delete at a time
+3. DELETE - localhost:3000/customers will delete all customerat a time
 
 4. GET - localhost:3000/customers/customerID will show specifc customer with id
 4. DELETE- localhost:3000/customers/customerID will delete specifc customer with id
