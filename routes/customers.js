@@ -56,13 +56,13 @@ customerRouter.route('/:customerId')
     })
     .post((req, res, next) => {
         res.statusCode = 403;
-        res.end('POST operation not supported on /dishes/' + req.params.dishId);
+        res.end('POST operation not supported on /customers/' + req.params.customerId);
     })
     .put((req, res, next) => {
         Customers.findByIdAndUpdate(req.params.customerId, {
             $set: req.body
         }, { new: true })
-            .then((dish) => {
+            .then((customer) => {
                 res.statusCode = 200;
                 res.setHeader('Content-Type', 'application/json');
                 res.json(customer);
